@@ -20,6 +20,38 @@ header img {
     color: black;
 }
 
+
+.armas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    .armas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .armas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card-text {
+    font-size: medium;
+    color: black;
+}
+
+.card {
+    height: 400px;
+}
+
 h1 {
     color: blue;
 }
@@ -32,4 +64,14 @@ p {
     margin-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+.iconify {
+    font-size: 3rem;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
 }
