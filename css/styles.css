@@ -67,6 +67,7 @@ header img {
 
 h1 {
     color: blue;
+    text-align: center;
 }
 
 h3 {
@@ -77,6 +78,29 @@ p {
     margin-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+label {
+    color: white;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content:space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    color: black;
 }
 
 .iconify {
