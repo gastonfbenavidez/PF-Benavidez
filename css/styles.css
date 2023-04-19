@@ -9,3 +9,27 @@ header {
 header img {
     width: 80px;
 }
+
+
+.nav-link {
+    color: black;
+}
+
+.navbar-toggler-icon {
+    background: url('https://api.iconify.design/icon-park-outline/hamburger-button.svg?color=black') no-repeat center center / contain;
+    color: black;
+}
+
+h1 {
+    color: blue;
+}
+
+h3 {
+    color: brown;
+}
+
+p {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
