@@ -20,6 +20,19 @@ header img {
     color: black;
 }
 
+.carousel-item img {
+    height: 250px;
+}
+
+@media (min-width: 900px) {
+    #carouselExample {
+        margin: 0 auto;
+        width: 70%;
+    }
+   .carousel-item img {
+        height: 550px;
+    }
+}
 
 .armas {
     display: flex;
