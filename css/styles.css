@@ -108,6 +108,10 @@ li a {
     color: black;
 }
 
+img {
+    max-width: 100%;
+}
+
 #misiones {
     background-color: azure;
 }
@@ -159,7 +163,7 @@ li a {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 772px) {
     .fotos {
         display: grid;
         grid-template-areas:
@@ -208,6 +212,43 @@ li a {
 
 .ocho {
     grid-area: foto8;
+}
+
+#padre-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+@media (min-width: 768px) {
+    #padre-textos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    #padre-textos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconos {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
 }
 
 .iconify {
