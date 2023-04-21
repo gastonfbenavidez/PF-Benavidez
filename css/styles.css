@@ -108,6 +108,54 @@ li a {
     color: black;
 }
 
+#misiones {
+    background-color: azure;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete {
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.uno {
+    background-image: url(../img/mision1.jpg);
+}
+
+.dos {
+    background-image: url(../img/mision2.jpg);
+}
+
+.tres {
+    background-image: url(../img/mision3.jpg);
+}
+
+.cuatro {
+    background-image: url(../img/mision4.jpg);
+}
+
+.cinco {
+    background-image: url(../img/mision5.jpg);
+}
+
+.seis {
+    background-image: url(../img/mision6.jpg);
+}
+
+.siete {
+    background-image: url(../img/mision7.jpg);
+}
+
+
+
 .iconify {
     font-size: 3rem;
 }
