@@ -238,7 +238,7 @@ img {
     }
 }
 
-footer {
+.footer2 {
     display: flex;
     justify-content: center;
     gap: 20px;
