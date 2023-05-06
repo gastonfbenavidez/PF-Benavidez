@@ -1,0 +1,79 @@
+header img {
+    width: 80px;
+}
+
+header {
+   background-color: $color-secundario;
+}
+
+body {
+    background-color: $color-primario;
+    color: $color-secundario;
+}
+
+.nav-link,
+.navbar-nav .nav-link.active {
+    color: $color-primario;
+
+    &:hover {
+        color: $color-terciario;
+    }
+}
+
+.navbar-toggler {
+    background-color: $color-terciario;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: $espacio-grande;
+}
+
+h2 {
+    text-align: center;
+    margin-top: $espacio-medio;
+    font-size: $fuente-media;
+}
+
+h3 {
+    color: $color-secundario;
+    text-align: center;
+}
+
+h4 {
+    color: $color-primario;
+    font-size: $fuente-media;
+    margin-top: $espacio-medio;
+}
+
+p {
+    font-size: $fuente-media;
+}
+
+footer {
+    background-color: $color-secundario;
+}
+
+footer {
+    margin-top: $espacio-chico;
+    @include flex-columna;
+
+    .redes-sociales a {
+        color: $color-terciario;
+        text-decoration: none;
+        font-size: $icono-grande;
+    }
+}
+
+.iconify:hover {
+    transform: scale(1.5);
+}
+
+.btn {
+    border: solid 1px $color-secundario;
+    width: 200px;
+    text-align: center;
+    padding: 5px $espacio-chico;
+    border-radius: 10px;
+}

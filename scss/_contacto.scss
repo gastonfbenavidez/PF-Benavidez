@@ -1,0 +1,30 @@
+.parrafo-contacto {
+    text-align: center;
+    margin: $espacio-medio 0;
+    font-size: $fuente-media;
+}
+
+form {
+    @include flex-columna;
+    gap: $espacio-chico;
+
+    .campos {
+        @include flex-columna;
+    }
+
+    .botones-form {
+        @extend .btn;
+        color: $color-primario;
+        background-color: $color-terciario;
+        font-weight: 700;
+
+        &:hover {
+            background-color: $color-primario;
+            color: $color-terciario;
+        }
+    }
+}   
+
+p {
+    margin-bottom: $espacio-chico;
+}

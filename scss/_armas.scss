@@ -1,0 +1,26 @@
+.armas {
+    @include flex-columna;
+    gap: $espacio-chico;
+}
+
+@media (min-width: $tablet) {
+    .armas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: $desktop) {
+    .armas {
+        @include flex-fila-centrado
+    }
+}
+
+.card {
+    margin-top: $espacio-chico;
+    height: 600px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
