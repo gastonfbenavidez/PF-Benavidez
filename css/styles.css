@@ -36,20 +36,17 @@ h1 {
 }
 
 h2 {
+  color: yellow;
+  text-decoration: underline;
   text-align: center;
   margin-top: 40px;
   font-size: 20px;
 }
 
 h3 {
-  color: #b2b2b2;
-  text-align: center;
-}
-
-h4 {
   color: black;
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 p {
@@ -227,10 +224,6 @@ footer .redes-sociales a {
     justify-content: center;
   }
 }
-#padre-textos {
-  margin-top: 60px;
-}
-
 .carousel-item img {
   height: 600px;
 }
@@ -264,6 +257,14 @@ form .botones-form:hover {
 
 p {
   margin-bottom: 20px;
+}
+
+#error404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -31,20 +31,17 @@ h1 {
 }
 
 h2 {
+    color: $color-terciario;
+    text-decoration: underline;
     text-align: center;
     margin-top: $espacio-medio;
     font-size: $fuente-media;
 }
 
 h3 {
-    color: $color-secundario;
-    text-align: center;
-}
-
-h4 {
     color: $color-primario;
     font-size: $fuente-media;
-    margin-top: $espacio-medio;
+    margin-top: $espacio-chico;
 }
 
 p {
